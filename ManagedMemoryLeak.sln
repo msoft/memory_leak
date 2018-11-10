@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedMemoryLeak", "ManagedMemoryLeak\ManagedMemoryLeak.csproj", "{3531F8B5-108D-44D5-8891-968DC769527E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnmanagedMemoryLeak", "UnamanagedMemoryLeak\UnamanagedMemoryLeak.vcxproj", "{A46C7E0C-D15C-4AE3-9677-4EBEC9E46C12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3531F8B5-108D-44D5-8891-968DC769527E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3531F8B5-108D-44D5-8891-968DC769527E}.Debug|x86.Build.0 = Debug|Any CPU
+		{3531F8B5-108D-44D5-8891-968DC769527E}.Release|x86.ActiveCfg = Release|Any CPU
+		{3531F8B5-108D-44D5-8891-968DC769527E}.Release|x86.Build.0 = Release|Any CPU
+		{A46C7E0C-D15C-4AE3-9677-4EBEC9E46C12}.Debug|x86.ActiveCfg = Debug|Win32
+		{A46C7E0C-D15C-4AE3-9677-4EBEC9E46C12}.Debug|x86.Build.0 = Debug|Win32
+		{A46C7E0C-D15C-4AE3-9677-4EBEC9E46C12}.Release|x86.ActiveCfg = Release|Win32
+		{A46C7E0C-D15C-4AE3-9677-4EBEC9E46C12}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {813A52A2-B13A-498B-B972-1AB38E568B3A}
+	EndGlobalSection
+EndGlobal
