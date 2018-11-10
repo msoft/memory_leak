@@ -1,2 +1,2 @@
-# memory_leak
-Examples of managed and unmanaged memory leaks.
+# Memory Leak
+Simulating managed and unmanaged memory leaks.
